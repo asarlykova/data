@@ -1,0 +1,15 @@
+import pandas as pd
+new=pd.read_csv('META.csv')
+print(new.head())
+print(new.tail())
+print(new.describe())
+print(new.info())
+print(new.isnull().sum())
+
+
+print(new.index) #will give indexes where starts and where stops and how much steps
+print(new.columns) # print the column labels
+print(new.size) #display the total number of elements or items present in a data frame
+print(new.shape) #attribute is used to display the total number of rows and columns of a particular data frame.
+print(new.bool)
+print(new.encode())
